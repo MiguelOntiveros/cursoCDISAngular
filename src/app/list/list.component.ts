@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { dias } from './agenda';
+
 
 @Component({
   selector: 'app-list',
@@ -7,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
+  //objetoDia: Dia[]; 
   constructor() { }
 
   ngOnInit(): void {
+    //this.objetoDia = dias;
   }
-
 }
