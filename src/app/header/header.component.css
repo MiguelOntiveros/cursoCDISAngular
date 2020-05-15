@@ -1,0 +1,221 @@
+.header{
+    text-align: center;
+    background-color:transparent;
+    width: 100%;
+}
+
+@media only screen and (min-width:200px) {
+    
+    .btn_ventas{
+      display: flex;
+      flex-wrap:wrap;
+      margin-top: 0;
+      margin-left: 0;
+      background-color:#FFD310;
+      text-align: center;
+      color:#fff;
+      width: 100%;
+      position: relative;
+      font-size: 25px;
+      padding-left: 38vw;
+      }
+      
+       .btn_clientes{
+      display: flex;
+      flex-wrap:wrap;
+      margin-top: 0;
+      margin-left: 0;
+      background-color:#FFD310;
+      text-align: center;
+      color:#fff;
+      width: 100%;
+      position: relative;
+      font-size: 25px;
+      padding-left: 36vw;
+      }
+      
+      .btn_empleados{
+      display: flex;
+      flex-wrap:wrap;
+      margin-top: 0;
+      margin-left: 0;
+      background-color:#FFD310;
+      text-align: center;
+      color:#fff;
+      width: 100%;
+      position: relative;
+      font-size: 25px;
+      padding-left: 33vw;
+      }
+      
+      .btn_productos{
+      display: flex;
+      flex-wrap:wrap;
+      margin-top: 0;
+      margin-left: 0;
+      background-color:#FFD310;
+      text-align: center;
+      color:#fff;
+      width: 100%;
+      position: relative;
+      font-size: 25px;
+      padding-left: 33vw;
+      }
+      
+      .btn_servicios{
+      display: flex;
+      flex-wrap:wrap;
+      margin-top: 0;
+      margin-left: 0;
+      background-color:#FFD310;
+      text-align: center;
+      color:#fff;
+      width: 100%;
+      position: relative;
+      font-size: 25px;
+      padding-left: 35vw;
+      }
+      
+      .btn_reportes{
+      display: flex;
+      flex-wrap:wrap;
+      margin-top: 0;
+      margin-left: 0;
+      background-color:#FFD310;
+      text-align: center;
+      color:#fff;
+      width: 100%;
+      position: relative;
+      font-size: 25px;
+      padding-left: 35vw;
+      }
+      
+      .marco_calendar{
+      background-color:#F8F8F8;
+      position: relative;
+      width: 100%;
+      }
+      
+      .calendar{
+      background-color:#F8F800;
+      width: 100%;
+      position: relative;
+      }
+      
+      .agenda{
+      background-color:#7C02CB;
+      color:#fff;
+      padding: 20px;
+      position: relative;
+      }
+      
+      .agenda2{
+      position: relative;
+      }
+    
+  }
+  
+  @media only screen and (min-width:700px) {
+      
+    .btn_ventas{
+      padding-left: 44vw;
+      }
+      
+      .btn_clientes{
+      padding-left: 42vw;
+      }
+      
+      .btn_empleados{
+      padding-left: 40vw;
+      }
+      
+      .btn_productos{
+      padding-left: 40vw;
+      }
+      
+      .btn_servicios{
+      padding-left: 41vw;
+      }
+      
+      .btn_reportes{
+      padding-left: 41vw;
+      }
+      
+      .marco_calendar{
+      background-color:#fff;
+      position: relative;
+      width: 100%;
+      }
+      
+      .calendar{
+      width: 100%;
+      position: relative;
+      }
+      
+  }
+  
+  @media only screen and (min-width:1200px) {
+      
+      .btn_ventas{
+      margin-top: 0;
+      margin-left: 0;
+      padding-left: 4vw;
+      width: 16%;
+      position: absolute;
+      }
+      
+      .btn_clientes{
+      margin-top: 0;
+      margin-left: 15.8vw;
+      padding-left: 3.5vw;
+      width: 16.66%;
+      position: absolute;
+      }
+      
+      .btn_empleados{
+      width: 18%;
+      margin-top:0;
+      margin-left: 32.3vw;
+      padding-left: 3vw;
+      position: absolute;
+      }
+      
+      .btn_productos{
+      padding-left: 3vw;
+      width: 18.5%;
+      margin-top:0;
+      margin-left: 50.1vw;
+      padding-left: 3vw;
+      position: absolute;
+      }
+      
+      .btn_servicios{
+      padding-left: 3vw;
+      width: 16.6%;
+      margin-top:0;
+      margin-left: 68.4vw;
+      padding-left: 3vw;
+      position: absolute;
+      }
+      
+      .btn_reportes{
+      padding-left: 3vw;
+      width: 15.5%;
+      margin-top:0;
+      margin-left: 84.4vw;
+      position: relative;
+      }
+      
+      .marco_calendar{
+      margin-top: 0;
+      position: relative;
+      }
+      
+      .calendar{
+      margin-top: 5vh;
+      position: relative;
+      }
+      
+
+     
+  }
