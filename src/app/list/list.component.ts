@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { dias } from './agenda';
+import { Dia} from './dia';
+import { AGENDA } from './agenda';
 
 
 @Component({
@@ -9,10 +10,10 @@ import { dias } from './agenda';
 })
 export class ListComponent implements OnInit {
 
-  //objetoDia: Dia[]; 
+  objeto: Dia[]; 
   constructor() { }
 
   ngOnInit(): void {
-    //this.objetoDia = dias;
+    this.objeto = AGENDA;
   }
 }

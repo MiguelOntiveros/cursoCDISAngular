@@ -1,6 +1,6 @@
 import { Dia } from './dia';
 
-export const dias: Dia[] = [
+export const AGENDA: Dia[] = [
 
     {
         dia: new Date('2020-03-10'),
